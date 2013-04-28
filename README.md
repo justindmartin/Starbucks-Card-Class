@@ -1,7 +1,14 @@
-Starbucks-Card-Class
+Starbucks Card API
 ====================
 
 This is a PHP class that allows you to perform different tasks on your Starbucks card.
 
-*The class itself is in the classes directory
-*The examples are in the examples directory
+## Usage Example
+
+```PHP
+//initialize StarbucksCard class
+$myStarbucksCard = new StarbucksCard('CARD_NUMBER', 'PIN_NUMBER');
+
+//check card balance
+$myStarbucksCard->checkCardBalance();
+```

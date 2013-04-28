@@ -1,5 +1,5 @@
 <?php
-class starbucksCard{
+class StarbucksCard{
 	function __Construct($cardNum,$cardPin){
 		$this->cardNum = $cardNum;
 		$this->cardPin = $cardPin;
